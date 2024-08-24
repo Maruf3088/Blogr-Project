@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+.header-bg {
+    background: linear-gradient(96deg,  hsla(13, 100%, 72%, 0.685) 40%, hsla(353, 100%, 62%, 0.845) 74%), url(./images/bg-head.svg);
+}
+.section-2-bg{
+    background-color: #3e4062df;
+    background-image: url(./images/circle.svg);
+    background-position:center  ;
+    background-size:40% ;
+    background-repeat: no-repeat
+}
+
+@tailwind utilities;
